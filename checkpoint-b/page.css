@@ -1,0 +1,44 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f6fb;
+  color: #26354a;
+  margin: 0;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #174ea6;
+}
+
+#pick {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  background-color: #174ea6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#pick:hover {
+  background-color: #103a7d;
+}
+
+#list {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 0;
+  list-style: none;
+}
+
+.tile {
+  padding: 20px;
+  margin-bottom: 12px;
+  background-color: white;
+  color: #26354a;
+  border-radius: 10px;
+  border: 1px solid #dce3ec;
+}
